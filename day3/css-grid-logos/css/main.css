@@ -1,0 +1,17 @@
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:1fr 1fr;
+    margin-top:10vh;
+}
+.grid-container > div{
+    justify-self:center;
+    align-self:center;
+    border:1px solid #eee;
+    max-height:50vh;
+    padding:3em;
+}
+div img{
+    width:100%;
+    height:auto;
+}
