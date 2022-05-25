@@ -62,10 +62,25 @@ header .container .nav-list{
     object-fit:cover;
     transform:translateZ(-1px) scale(2.1);
 }
+.page-title img.akali{
+    height:50%;
+    width:min-content;
+    transform:translateZ(-.5px) scale(1.5) translateX(-150%);
+    z-index:-1;
+}
+.page-title img.ahri{
+    height:50%;
+    width:min-content;
+    transform:translateZ(-.5px) scale(1.5) translateX(50%);
+    z-index:-1;
+}
 .page-title h2{
     font-size:5rem;
     color:white;
+    z-index:1;
     transform:translateZ(-.5px) scale(1.5);
+    background-color:rgba(33, 164, 176, 70%);
+    padding:2rem;
 }
 .shows{
     background-color:white;
